@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS `adx_clk_daily_summary`;
+DROP TABLE IF EXISTS `gmt_clk_daily_summary`;
+DROP TABLE IF EXISTS `adx_conv_daily_summary`;
+DROP TABLE IF EXISTS `gmt_conv_daily_summary`;
+DROP TABLE IF EXISTS `adx_invalid_conv_daily_summary`;
+DROP TABLE IF EXISTS `gmt_event_daily_summary`;
+DROP TABLE IF EXISTS `adx_event_daily_summary`;
+DROP TABLE IF EXISTS `adx_daily_summary`;
+DROP TABLE IF EXISTS `gmt_daily_summary`;

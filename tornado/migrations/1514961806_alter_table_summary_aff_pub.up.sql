@@ -1,0 +1,10 @@
+ALTER TABLE adx_daily_summary CHANGE net_profit net_profit DECIMAL(14,4) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE adx_daily_summary CHANGE tac tac DECIMAL(14,4) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE gmt_daily_summary CHANGE net_profit net_profit DECIMAL(14,4) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE gmt_daily_summary CHANGE tac tac DECIMAL(14,4) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE adx_conv_daily_summary CHANGE income income DECIMAL(7,2) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE adx_conv_daily_summary CHANGE payout payout DECIMAL(7,2) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE gmt_conv_daily_summary CHANGE income income DECIMAL(7,2) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE gmt_conv_daily_summary CHANGE payout payout DECIMAL(7,2) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE gmt_event_daily_summary CHANGE total_amount total_amount DECIMAL(12,4) UNSIGNED NOT NULL DEFAULT 0;
+ALTER TABLE adx_event_daily_summary CHANGE total_amount total_amount DECIMAL(12,4) UNSIGNED NOT NULL DEFAULT 0;
